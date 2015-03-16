@@ -1,0 +1,9 @@
+# Files to ignore
+
+test
+gulpfile.js
+.jshintrc
+.jscsrc
+.gitignore
+.gitattributes
+_*
