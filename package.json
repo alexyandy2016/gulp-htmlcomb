@@ -1,0 +1,44 @@
+{
+  "name": "gulp-htmlcomb",
+  "description": "The HTMLComb plugin for Glup.",
+  "version": "0.0.1",
+  "keywords": [
+    "gulpplugin",
+    "html",
+    "comb",
+    "format",
+    "javacript",
+    "front-end",
+    "web",
+    "development"
+  ],
+  "author": {
+    "name": "Fengyuan Chen",
+    "url": "https://github.com/fengyuanchen"
+  },
+  "homepage": "https://github.com/fengyuanchen/gulp-htmlcomb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengyuanchen/gulp-htmlcomb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fengyuanchen/gulp-htmlcomb/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/fengyuanchen/grunt-htmlcomb/blob/master/LICENSE-MIT"
+  },
+  "dependencies": {
+    "gulp-util": "~3.0.4",
+    "through2": "~0.6.3",
+    "rcloader": "~0.1.4",
+    "htmlcomb": "~0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-jscs": "~1.4.0",
+    "gulp-jshint": "~1.9.2",
+    "gulp-mocha": "~2.0.0",
+    "del": "~1.1.1"
+  }
+}
