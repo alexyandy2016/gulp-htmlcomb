@@ -1,6 +1,6 @@
 # [gulp-htmlcomb](https://github.com/fengyuanchen/gulp-htmlcomb)
 
-> The [HTMLComb](https://github.com/fengyuanchen/htmlcomb) plugin for [Gulp](http://gulpjs.com).
+> The [Gulp](http://gulpjs.com) plugin of [HTMLComb](https://github.com/fengyuanchen/htmlcomb).
 
 
 ## Getting Started

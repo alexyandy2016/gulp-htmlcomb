@@ -1,6 +1,6 @@
 {
   "name": "gulp-htmlcomb",
-  "description": "The HTMLComb plugin for Glup.",
+  "description": "The Gulp plugin of HTMLComb.",
   "version": "0.0.1",
   "keywords": [
     "gulp",
