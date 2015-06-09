@@ -32,6 +32,8 @@ gulp.task('htmlcomb', function () {
 
 See the [HTMLComb options](https://github.com/fengyuanchen/htmlcomb#options)
 
+If there is `.htmlcombrc` file present in the same folder as the source file(s), or in the project root folder, gulp-htmlcomb will read config settings from it.
+
 
 ## [License](LICENSE.md)
 
