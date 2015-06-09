@@ -3,6 +3,8 @@
   "description": "The HTMLComb plugin for Glup.",
   "version": "0.0.1",
   "keywords": [
+    "gulp",
+    "plugin",
     "gulpplugin",
     "html",
     "comb",
