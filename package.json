@@ -26,10 +26,7 @@
   "bugs": {
     "url": "https://github.com/fengyuanchen/gulp-htmlcomb/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/fengyuanchen/grunt-htmlcomb/blob/master/LICENSE-MIT"
-  },
+  "license": "MIT",
   "dependencies": {
     "gulp-util": "~3.0.4",
     "through2": "~0.6.3",
