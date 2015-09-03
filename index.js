@@ -8,16 +8,16 @@
 
 'use strict';
 
-var gutil = require('gulp-util'),
-    through = require('through2'),
-    RcLoader = require('rcloader'),
-    HTMLComb = require('htmlcomb');
+var gutil = require('gulp-util');
+var through2 = require('through2');
+var RcLoader = require('rcloader');
+var HTMLComb = require('htmlcomb');
 
 module.exports = function (options) {
-  var rcLoader = new RcLoader('.htmlcombrc', options),
-      htmlcomb = new HTMLComb(options);
+  var rcLoader = new RcLoader('.htmlcombrc', options);
+  var htmlcomb = new HTMLComb(options);
 
-  return through.obj(function (file, enc, cb) {
+  return through2.obj(function (file, enc, cb) {
     if (file.isNull()) {
       cb(null, file);
       return;
@@ -31,8 +31,7 @@ module.exports = function (options) {
     rcLoader.for(file.path, function (err, options) {
       if (!err) {
         try {
-          htmlcomb.setup(options);
-          file.contents = new Buffer(htmlcomb.comb(String(file.contents)));
+          file.contents = new Buffer(htmlcomb.format(String(file.contents), options));
         } catch (e) {
           err = e;
         }

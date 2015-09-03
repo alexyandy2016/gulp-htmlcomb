@@ -1,15 +1,13 @@
 # [gulp-htmlcomb](https://github.com/fengyuanchen/gulp-htmlcomb)
 
-> The [Gulp](http://gulpjs.com) plugin of [HTMLComb](https://github.com/fengyuanchen/htmlcomb).
+> [HTMLComb](https://github.com/fengyuanchen/htmlcomb) plugin for [Gulp](http://gulpjs.com).
 
 
 ## Getting Started
 
-### Quick start
+### Install
 
-Install with [NPM](http://npmjs.org):
-
-```shell
+```
 npm install gulp-htmlcomb
 ```
 
@@ -28,7 +26,7 @@ gulp.task('htmlcomb', function () {
 ```
 
 
-### Options
+## Options
 
 See the [HTMLComb options](https://github.com/fengyuanchen/htmlcomb#options)
 
@@ -37,4 +35,4 @@ If there is `.htmlcombrc` file present in the same folder as the source file(s),
 
 ## [License](LICENSE.md)
 
-Released under the [MIT](http://opensource.org/licenses/mit-license.html) license.
+[MIT](http://opensource.org/licenses/MIT) © [Fengyuan Chen](http://github.com/fengyuanchen)
